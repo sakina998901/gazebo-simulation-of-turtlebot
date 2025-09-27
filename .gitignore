@@ -1,0 +1,38 @@
+# ROS2 workspace
+build/
+install/
+log/
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Gazebo
+*.log
+*.bak
+*.gazebo
+
+# Windows Zone.Identifier files
+*_Zone.Identifier
+
+# Miscellaneous
+*.swp
+.DS_Store
+photos/
+*.zip
+
+# Exclude specific files not in README structure
+worlds/hospital.world
+worlds/hospital_three_floors.world
+worlds/hospital_two_floors.world
+worlds/swarm_world.sdf
+rl_training/scripts/turtlebot_dqn_checkpoint_100.pth
+turtlebot_dqn.pth
+rviz/
